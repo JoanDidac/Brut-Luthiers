@@ -6,19 +6,24 @@ body {
 }
 
 .main-body {
+   
     position: absolute;
-    top: 50%;
-    left: 50%;
+    /* top: 50%;
+    left: 50%; */
     transform: translate(-50%, -50%);
     width: 351px;
     height: 800px;
-    border-radius: 14px 2px 2px 14px;
+    /* border-radius: 14px 2px 2px 14px;
     -webkit-box-shadow: -4vw 6vh 8vh -3vh rgba(0,0,0,0.55);
     -moz-box-shadow: -4vw 6vh 8vh -3vh rgba(0,0,0,0.55);
-    box-shadow: -4vw 6vh 8vh -3vh rgba(0,0,0,0.55);
+    box-shadow: -4vw 6vh 8vh -3vh rgba(0,0,0,0.55); */
 }
 
 .nav-bar {
+    background-image: url('/images/brut-bg-landing.png');
+    background-repeat: no-repeat;
+    background-size: calc(60vw);
+    background-position: 350px 200px ;
     display: block;
     position: absolute;
     top: 50%;
@@ -28,7 +33,7 @@ body {
     width: 100%;
     height: 100%;
     background-color: #101010;
-    border-radius: 14px 2px 2px 14px;
+    /* border-radius: 14px 2px 2px 14px; */
     z-index: 2;
 }
 
@@ -47,6 +52,18 @@ body {
     display: inline-block;
 }
 
+
+#title-text {
+    font-size: 1.1em;
+    transform: translateY(-40px);
+}
+#box {
+    transform: translateY(-40px);
+}
+.landing-h2 {
+    transform: translateY(170px) translateX(-200px);
+
+}
 .nav-bar #box {
     display: inline-block;
     position: absolute;
@@ -67,6 +84,10 @@ body {
     width: 80%;
     min-height: 100px;
 }
+
+/* .nav-item-list {
+    color: #101010;
+} */
 
 .nav-item {
     display: inline-block;
@@ -89,7 +110,9 @@ body {
     opacity: 0.2;
     transition: all 0.30s ease-in-out;
 }
-
+.item-text {
+   
+}
 .nav-item:hover .item-text {
     left: 20px;
     bottom: 2px;
@@ -136,4 +159,10 @@ a {
     letter-spacing: 1px;
     text-transform: uppercase;
     font-weight: 800;
+}
+
+footer { 
+    background: #101010;
+    text-align: center;
+    padding: 20px 20px;
 }
