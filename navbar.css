@@ -22,8 +22,8 @@ body {
 .nav-bar {
     background-image: url('/images/brut-bg-landing.png');
     background-repeat: no-repeat;
-    background-size: calc(60vw);
-    background-position: 350px 200px ;
+    background-size: calc(60vw) ;
+    background-position: 60% 90%;
     display: block;
     position: absolute;
     top: 50%;
@@ -59,10 +59,39 @@ body {
 }
 #box {
     transform: translateY(-40px);
+   
 }
 .landing-h2 {
     transform: translateY(170px) translateX(-200px);
 
+}
+.stringed{
+    transform: translateY(100px) translateX(-58%);
+    font-size: 1.7em;
+    padding: 10px 5px;
+    color:#101010df;
+    height: calc(15%);
+    margin-left: calc(-20vw);
+    text-shadow: 1px 1px 1px #f8b500;
+
+}
+.musical{
+    transform: translateY(100px) translateX(-65%);
+    font-size: 1.7em;
+    padding: 10px 5px;
+    color:#f8b600;
+    height: 10%;
+    margin-left: calc(-15vw);
+    text-shadow: 1px 1px 1px #101010b8;
+}
+.instruments{
+    transform: translateY(100px) translateX(-85%);
+    font-size: 1.7em;
+    padding: 10px 5px;
+    color: rgb(248,237,196);
+    height: 10%;
+    margin-left: calc(-8vw);
+    text-shadow: 2px 1px 0px #f8b500;
 }
 .nav-bar #box {
     display: inline-block;
@@ -165,4 +194,15 @@ footer {
     background: #101010;
     text-align: center;
     padding: 20px 20px;
+}
+footer h6 {
+    font-family: "Poppins";
+    font-weight: 200;
+    margin: 0;
+}
+footer p {
+    font-family: "Poppins";
+    font-weight: 200;
+    font-size: 20px;
+    margin: 0;
 }
